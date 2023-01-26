@@ -1,0 +1,4 @@
+﻿  doWhileNumberGuesser.cpp
+C:\Users\garrett.solomon.BELTEC\source\repos\doWhileNumberGuesser\doWhileNumberGuesser\doWhileNumberGuesser.cpp(13,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\garrett.solomon.BELTEC\source\repos\doWhileNumberGuesser\doWhileNumberGuesser\doWhileNumberGuesser.cpp(10,24): warning C4101: 'numberGuessed': unreferenced local variable
+  doWhileNumberGuesser.vcxproj -> C:\Users\garrett.solomon.BELTEC\source\repos\doWhileNumberGuesser\x64\Debug\doWhileNumberGuesser.exe

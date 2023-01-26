@@ -1,0 +1,6 @@
+﻿  VariablePractice.cpp
+C:\Users\garrett.solomon.BELTEC\source\repos\VariablePractice\VariablePractice\VariablePractice.cpp(32,7): warning C4101: 'letter': unreferenced local variable
+C:\Users\garrett.solomon.BELTEC\source\repos\VariablePractice\VariablePractice\VariablePractice.cpp(32,23): warning C4101: 'LETTER': unreferenced local variable
+C:\Users\garrett.solomon.BELTEC\source\repos\VariablePractice\VariablePractice\VariablePractice.cpp(22,6): warning C4101: 'count1': unreferenced local variable
+C:\Users\garrett.solomon.BELTEC\source\repos\VariablePractice\VariablePractice\VariablePractice.cpp(32,15): warning C4101: 'Letter': unreferenced local variable
+  VariablePractice.vcxproj -> C:\Users\garrett.solomon.BELTEC\source\repos\VariablePractice\x64\Debug\VariablePractice.exe
