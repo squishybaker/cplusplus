@@ -1,0 +1,2 @@
+﻿  whileLoopPractice.cpp
+C:\Users\garrett.solomon.BELTEC\source\repos\whileLoopPractice\whileLoopPractice\whileLoopPractice.cpp(27): error C4700: uninitialized local variable 'numberToAdd' used

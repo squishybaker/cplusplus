@@ -1,0 +1,3 @@
+﻿  numberGuesserLab.cpp
+C:\Users\garrett.solomon.BELTEC\source\repos\numberGuesserLab\numberGuesserLab\numberGuesserLab.cpp(14,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  numberGuesserLab.vcxproj -> C:\Users\garrett.solomon.BELTEC\source\repos\numberGuesserLab\x64\Debug\numberGuesserLab.exe
