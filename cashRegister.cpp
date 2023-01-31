@@ -3,9 +3,9 @@
 /*
 * Cash Register
 * returns void
-* float total: total amount
+* int total: total amount
 * int& dollars: max number of dollars
-* int& q: max no. of quarters in cents
+* int& q: max no. of quarters
 * int& d: max no. of dimes
 * int& n: max no. of nickels
 * int& p: max no. of pennies
@@ -13,32 +13,30 @@
 
 #include <iostream>
 
-
-
 void cashRegister(int totalAmount, int& dollars, int& quarters, int& dimes, int& nickels, int& pennies);
-
 
 int main(){
     // should be responsible for getting the total from the user
     // dollar amount and change from till
     int till;
-    int dol;
-    int q;
-    int dim;
-    int n;
-    int p;
+    // int _conversion;
+    int _dollars;
+    int _quarters;
+    int _dimes;
+    int _nickels;
+    int _pennies;
 
     std::cout << "What is your total? ";
     std::cin >> till;
     
-    cashRegister(till, dol, q, dim, n, p);
-
-
+    cashRegister(till, _dollars, _quarters, _dimes, _nickels, _pennies);
 }
-
 
 void cashRegister(int totalAmount, int& dollars, int& quarters, int& dimes, int& nickels, int& pennies){
     
+    // conversion = totalAmount * 10;
+    // totalAmount = totalAmount * 10;
+
     dollars = totalAmount / 100;
     totalAmount = totalAmount % 100;
 
@@ -59,5 +57,4 @@ void cashRegister(int totalAmount, int& dollars, int& quarters, int& dimes, int&
     std::cout << dimes << " Dimes" << "\n";
     std::cout << nickels << " Nickels" << "\n";
     std::cout << pennies << " Pennies" << "\n";
-
 }
