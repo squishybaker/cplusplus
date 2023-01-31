@@ -52,6 +52,7 @@ void cashRegister(int totalAmount, int& dollars, int& quarters, int& dimes, int&
     pennies = totalAmount / 1;
     totalAmount = totalAmount % 1;
 
+    std::cout << "The total equates to: \n";
     std::cout << dollars << " Dollars" << "\n";
     std::cout << quarters << " Quarters" << "\n";
     std::cout << dimes << " Dimes" << "\n";
