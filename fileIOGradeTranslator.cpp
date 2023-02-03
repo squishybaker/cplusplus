@@ -1,12 +1,10 @@
-// fileio.cpp : This file contains the 'main' function. Program execution
-// 
+// fileio.cpp
+
 /*
 Read a file of names and numeric scores (muppetScores.txt)
-Output to file with letter grade next to name and numeric score
-    -Separated by a space
+Output to file with letter grade next to name and numeric score (updated)
 Output should also go to screen for verification
 */
-
 
 #include <iostream>
 #include <fstream>
@@ -44,10 +42,8 @@ int main()
         std::cout << studentName << " " << studentGrade
         << " " << translate(studentGrade) << "\n";
         
-        
         outFile << studentName << " " << studentGrade 
         << " " << translate(studentGrade) << "\n";
-    
     }
 
     inFile.close();
