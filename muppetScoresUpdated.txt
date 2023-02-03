@@ -1,0 +1,9 @@
+Kermit 88 B
+Fozzy 56 F
+Piggy 80 B
+Gonzo 64 D
+Animal 98 A
+Beaker 99 A
+Bunsen 68 D
+Statler 82 B
+Waldorf 77 C

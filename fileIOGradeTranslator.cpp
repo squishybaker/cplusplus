@@ -13,17 +13,19 @@ Output should also go to screen for verification
 #include <string>
 
 // declare translate
-char translate(/*std::string muppet,*/ int numberGrade);
+char translate(int numberGrade);
 
 int main()
 {
-    //std::string name;
-    int rawTestScore;
+    std::string studentName;
+    int studentGrade;
+    
     std::string filePath = "Z:\\Programming\\cplusplus";
-    std::string fileName = "muppetScores.txt";
+    std::string inFileName = "muppetScores.txt";
+    std::string outFileName = "muppetScoresUpdated.txt";
 
     std::ofstream outFile;
-    outFile.open(filePath + "\\" + fileName, std::ios::app);
+    outFile.open(filePath + "\\" + outFileName, std::ios::app);
     if (outFile.fail()){
         std::cout << "output file failed" << std::endl;
         system("pause");
@@ -31,34 +33,29 @@ int main()
     }
 
     std::ifstream inFile;
-    inFile.open(filePath + "\\" + fileName);
+    inFile.open(filePath + "\\" + inFileName);
     if (inFile.fail()) {
     std::cout << "input file failed" << std::endl;
     system("pause");
     exit(1);
     }
-
-    //call translate on outFile
-    //index each column, call translate on column 1
-    std::string append;
-    std::cout << "Reading from file: \n";
-    while (getline(inFile, append)){
-        std::cout << append << " " << translate(rawTestScore) << "\n";
-        // for (int i = 0; i < 1; i++){
-        //     std::cout << append << " ";
-        //     for (int j = 1; j < 2; j++) {
-        //         std::cout << translate(/*name,*/ rawTestScore) << "\n";
-        //     }
-        // }
+    
+    while (inFile >> studentName >> studentGrade){
+        std::cout << studentName << " " << studentGrade
+        << " " << translate(studentGrade) << "\n";
+        
+        
+        outFile << studentName << " " << studentGrade 
+        << " " << translate(studentGrade) << "\n";
+    
     }
-
 
     inFile.close();
     outFile.close();
 }
 
 //define translate
-char translate(/*std::string muppet,*/ int numberGrade)
+char translate(int numberGrade)
 {
     if (numberGrade >= 90){
         return 'A';
@@ -76,5 +73,3 @@ char translate(/*std::string muppet,*/ int numberGrade)
         return 'F';
     }
 }
-
-//define appendToFile
