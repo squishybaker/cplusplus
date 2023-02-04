@@ -7,8 +7,8 @@
 int main(){
     std::vector<int> v1 = {1, 2, 3, 4};
     // add elements to the end of the vector
-    v1.push_back(9);
-    v1.push_back(9);
+    v1.push_back(5);
+    v1.push_back(6);
     // remove elements from the end of the vector
     v1.pop_back();
     // decrease the size of the vector to change space in memory
