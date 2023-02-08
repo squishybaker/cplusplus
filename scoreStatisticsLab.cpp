@@ -1,4 +1,5 @@
 // I think if there is too much input, you get an overflow from the array and the program crashes
+// Is overloading bad??
 // Score Statistics 
 
 /*
@@ -21,11 +22,11 @@ double average(int a[], int b);
 
 int main(){
     // std::string student;
-    int i, testScores;
+    int i, k, testScores;
     
     std::cout << "How many students and test scores? " << "\n";
     std::cin >> testScores;
-    int *arr = new int(i);
+    int *arr = new int(k);
 
     std::cout << "Enter the scores:" << std::endl;
     for (i = 0; i < testScores; i++){
@@ -35,9 +36,25 @@ int main(){
         std::cout << arr[i] << " ";
     }
     
-    std::cout << "\nThe average test score was " << average(arr, testScores);
+    std::cout << "\nThe average test score was " << average(arr, testScores) << "\n";
     
+    int highestGrade;
+    int lowestGrade;
+    highestGrade = arr[0];
+    lowestGrade = arr[0];
+    for (int i = 0; i < testScores; i++){
+        if (highestGrade < arr[i]){
+            highestGrade = arr[i];
+        }   
+        else if (lowestGrade > arr[i]){
+            lowestGrade = arr[i];
+        }
+    }
     
+    std::cout << "The highest grade was: " << highestGrade << std::endl;
+    std::cout << "The lowest grade was: " << lowestGrade << std::endl;
+ 
+
     delete [] arr;
     return 0;
 }
