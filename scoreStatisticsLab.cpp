@@ -1,3 +1,4 @@
+// I think if there is too much input, you get an overflow from the array and the program crashes
 // Score Statistics 
 
 /*
