@@ -1,0 +1,3 @@
+﻿  consoleGame.cpp
+C:\Users\garrett.solomon.BELTEC\source\repos\consoleGame\consoleGame\consoleGame.cpp(13,11): error C2065: 'CHARACTER_START_X': undeclared identifier
+C:\Users\garrett.solomon.BELTEC\source\repos\consoleGame\consoleGame\consoleGame.cpp(14,11): error C2065: 'CHARACTER_START_Y': undeclared identifier

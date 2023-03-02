@@ -1,0 +1,5 @@
+﻿  staticCastConversionExample.cpp
+C:\Users\garrett.solomon.BELTEC\source\repos\staticCastConversionExample\staticCastConversionExample\staticCastConversionExample.cpp(54,6): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\garrett.solomon.BELTEC\source\repos\staticCastConversionExample\staticCastConversionExample\staticCastConversionExample.cpp(64,6): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+C:\Users\garrett.solomon.BELTEC\source\repos\staticCastConversionExample\staticCastConversionExample\staticCastConversionExample.cpp(73,6): warning C5051: attribute 'maybe_unused' requires at least '/std:c++17'; ignored
+  staticCastConversionExample.vcxproj -> C:\Users\garrett.solomon.BELTEC\source\repos\staticCastConversionExample\x64\Debug\staticCastConversionExample.exe
